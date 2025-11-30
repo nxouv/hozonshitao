@@ -1,0 +1,91 @@
+/* プライバシーポリシー */
+.privacy-container {
+  max-width: 800px;
+}
+
+.header-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-link:hover {
+  opacity: 0.7;
+}
+
+.privacy-content {
+  margin-bottom: 48px;
+}
+
+.privacy-article {
+  margin-bottom: 48px;
+}
+
+.page-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 8px;
+}
+
+.last-updated {
+  font-size: 14px;
+  color: var(--color-text-tertiary);
+  margin-bottom: 32px;
+}
+
+.privacy-section {
+  margin-bottom: 28px;
+}
+
+.privacy-section h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 12px;
+}
+
+.privacy-section p {
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  margin-bottom: 12px;
+  line-height: 1.8;
+}
+
+.privacy-section ul {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.privacy-section li {
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 6px;
+  line-height: 1.7;
+}
+
+.privacy-section li::before {
+  content: "•";
+  position: absolute;
+  left: 6px;
+  color: var(--color-text-tertiary);
+}
+
+.privacy-section a {
+  color: var(--color-text-primary);
+  text-decoration: underline;
+}
+
+.privacy-section a:hover {
+  opacity: 0.7;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 56px 0;
+}
