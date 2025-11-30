@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>保存したお - Xの画像を高画質でサクッと保存</title>
+  <meta name="description" content="X（Twitter）の画像をオリジナル画質でダウンロードできるChrome拡張機能。jpg/pngで保存、ドラッグ&ドロップ対応。">
+  <meta name="keywords" content="X, Twitter, 画像, 保存, ダウンロード, オリジナル画質, jpg, png, Chrome拡張機能">
+  <meta property="og:title" content="保存したお - Xの画像を高画質でサクッと保存">
+  <meta property="og:description" content="X（Twitter）の画像をオリジナル画質でダウンロードできるChrome拡張機能">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nxouv.github.io/hozonshitao/">
+  <link rel="canonical" href="https://nxouv.github.io/hozonshitao/">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="icon.png" alt="保存したお" class="header-icon">
+      <h1 class="header-title">保存したお</h1>
+    </header>
+
+    <section class="hero">
+      <p class="tagline">Xの画像をひょいっと保存</p>
+      <p class="subtitle">オリジナル画質でサクッとダウンロードできるChrome拡張機能</p>
+      <a href="#" class="button" id="install-button">Chromeに追加する</a>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">特徴</h2>
+      <div class="features">
+        <div class="feature-card">
+          <div class="feature-icon">🖼️</div>
+          <h3 class="feature-title">オリジナル画質</h3>
+          <p class="feature-description">画質を落とさずに原寸サイズで保存できるよ</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📁</div>
+          <h3 class="feature-title">jpg/pngで保存</h3>
+          <p class="feature-description">jfifやwebpにならない<br>ちゃんとjpg/pngで保存される</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">✨</div>
+          <h3 class="feature-title">わかりやすいファイル名</h3>
+          <p class="feature-description">ユーザー名や投稿IDが入るから<br>あとから探しやすい</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">使い方</h2>
+      <div class="usage-list">
+        <div class="usage-item">
+          <div class="usage-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+          </div>
+          <div class="usage-content">
+            <h3 class="usage-title">ドラッグ&ドロップ</h3>
+            <p class="usage-description">画像をひょいっとドラッグ<br>出てきたエリアにぽとっと落とすだけ</p>
+          </div>
+        </div>
+        <div class="usage-item">
+          <div class="usage-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M4 4l7.07 17 2.51-7.39L21 11.07 4 4z"/>
+            </svg>
+          </div>
+          <div class="usage-content">
+            <h3 class="usage-title">右クリックメニュー</h3>
+            <p class="usage-description">画像を右クリックして「オリジナル画質で保存」を選ぶだけ<br>4枚まとめて保存もできるよ</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">ファイル名の例</h2>
+      <div class="filename-examples">
+        <div class="filename-card">
+          <p class="filename-label">ユーザー名_投稿ID</p>
+          <code class="filename-code">username_1234567890123456789.jpg</code>
+        </div>
+        <div class="filename-card">
+          <p class="filename-label">ユーザー名_日時</p>
+          <code class="filename-code">username_20250530_143052.jpg</code>
+        </div>
+      </div>
+      <p class="filename-note">どちらの形式にするかは設定で選べます</p>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">便利な機能</h2>
+      <ul class="feature-list">
+        <li>Shiftを押しながら保存すると保存先を選べる</li>
+        <li>ダークモード対応（ダークブルー、ブラック）</li>
+        <li>ドラッグ&ドロップのオン/オフ切り替え</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">対応サイト</h2>
+      <ul class="site-list">
+        <li>x.com</li>
+        <li>twitter.com</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">注意事項</h2>
+      <ul class="note-list">
+        <li>画像のみ対応しています（動画・GIFは非対応）</li>
+        <li>外部リンクの画像には対応していません</li>
+      </ul>
+    </section>
+
+    <section class="section cta-section">
+      <p class="cta-text">シンプルで軽量な画像保存ツール</p>
+      <a href="#" class="button" id="install-button-bottom">Chromeに追加する</a>
+    </section>
+
+    <footer class="footer">
+      <nav class="footer-nav">
+        <a href="privacy/">プライバシーポリシー</a>
+      </nav>
+      <p class="footer-copyright">© 2025 nxouv</p>
+    </footer>
+  </div>
+</body>
+</html>
